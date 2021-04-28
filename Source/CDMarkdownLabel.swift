@@ -323,7 +323,7 @@ open class CDMarkdownLabel: UILabel {
             self.selectedURLRange = nil
         case .stationary:
             break
-        default:
+        @unknown default:
             break
         }
 

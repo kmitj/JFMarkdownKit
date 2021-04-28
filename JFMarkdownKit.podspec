@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JFMarkdownKit'
-  s.version          = '1.2.1'
+  s.version          = '1.2.2'
   s.summary          = 'An extensive Swift framework providing simple and customizable markdown parsing.'
   s.description      = <<-DESC
 This Swift framework handles standard markdown parsing along with the ability to parse custom elements.
@@ -17,4 +17,5 @@ This Swift framework handles standard markdown parsing along with the ability to
   s.watchos.deployment_target = '2.0'
 
   s.source_files = 'Source/*.swift'
+  s.swift_version = '5.0'
 end
