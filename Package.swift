@@ -14,5 +14,5 @@ let package = Package(
         .target(
             name: "JFMarkdownKit",
             path: "Source")
-    ],
+    ]
 )
